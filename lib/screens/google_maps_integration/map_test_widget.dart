@@ -26,8 +26,7 @@ Future<void> injectGoogleMapWidget(String projectPath) async {
   if (await file.exists()) {
     final content = await file.readAsString();
     if (content.contains('class GoogleMapWidget')) {
-      print('GoogleMapWidget already exists. Skipping file write.');
-      return;
+       return;
     }
   }
 
@@ -87,8 +86,7 @@ void main() {
 
   try {
     await file.writeAsString(widgetContent);
-    print('GoogleMapWidget created at $widgetFilePath');
-  } catch (e) {
+    } catch (e) {
     throw Exception(
         'Failed to write map_test_widget.dart at $widgetFilePath: $e');
   }

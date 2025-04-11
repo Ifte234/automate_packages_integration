@@ -18,6 +18,7 @@ class _MapProjectSelectionScreenState extends State<MapProjectSelectionScreen> {
   String? selectedMapProjectPath;
   String? mapIntegrationErrorMessage;
 
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: BlocListener<MapIntegrationBloc, MapIntegrationState>(
@@ -64,7 +65,7 @@ class _MapProjectSelectionScreenState extends State<MapProjectSelectionScreen> {
                   Container(
                     padding: const EdgeInsets.all(8.0),
                     decoration: BoxDecoration(
-                      color: Colors.red.withOpacity(0.1),
+                     color: const Color.fromRGBO(255, 0, 0, 0.1),
                       border: Border.all(color: Colors.red),
                       borderRadius: BorderRadius.circular(4.0),
                     ),

@@ -38,14 +38,14 @@ class MapDemoIntegrationEvent extends MapIntegrationEvent {}
 
 class MapConfigureAndroidEvent extends MapIntegrationEvent {
   final String apiKey;
-  MapConfigureAndroidEvent(this.apiKey);
+  const MapConfigureAndroidEvent(this.apiKey);
 }
 
 class MapConfigureIOSEvent extends MapIntegrationEvent {
   final String apiKey;
-  MapConfigureIOSEvent(this.apiKey);
+  const MapConfigureIOSEvent(this.apiKey);
 }
 class MapConfigureWebEvent extends MapIntegrationEvent {
   final String apiKey;
-  MapConfigureWebEvent(this.apiKey);
+  const MapConfigureWebEvent(this.apiKey);
 }

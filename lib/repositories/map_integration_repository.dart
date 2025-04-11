@@ -55,7 +55,7 @@ class MapIntegrationRepository {
 
   Future<String> configureAndroid(String apiKey) async {
     if (currentProjectPath == null) throw Exception('Project not selected');
-    print("configuring android");
+    
     final manifestPath = p.join(
       currentProjectPath!,
       'android',
@@ -125,7 +125,7 @@ class MapIntegrationRepository {
   }
 Future<String> configureIOS(String apiKey) async {
   if (currentProjectPath == null) throw Exception('Project not selected');
-  print("Configuring iOS...");
+ 
 
   final infoPlistPath = p.join(
     currentProjectPath!,
@@ -180,7 +180,7 @@ Future<String> configureIOS(String apiKey) async {
 }
 Future<String> configureWeb(String apiKey) async {
   if (currentProjectPath == null) throw Exception('Project not selected');
-  print("Configuring Web...");
+  
 
   final indexPath = p.join(
     currentProjectPath!,

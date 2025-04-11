@@ -1,4 +1,4 @@
-# Contributing to [Your Project Name]
+# Contributing to automate_packages_integration
 
 Thank you for your interest in contributing! Follow these simple steps to get started and help improve the project.
 
@@ -10,7 +10,7 @@ Thank you for your interest in contributing! Follow these simple steps to get st
    - Fork the repository on GitHub by clicking the **Fork** button.
    - Clone your fork locally:
      ```bash
-     git clone https://github.com/<your-username>/<repository-name>.git
+     git clone https://github.com/Ifte234/automate_packages_integration.git
      cd <repository-name>
      ```
 

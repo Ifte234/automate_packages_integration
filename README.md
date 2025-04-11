@@ -17,6 +17,27 @@ Welcome to **automate_packages_integration**! This project allows users to add F
 
 Make sure you have **Flutter** installed on your system. If not, follow the steps below:
 
+--
+
+## 🤝 Contribute
+
+We welcome contributions from the community! Click below to get started:
+
+| Contribution | Description |
+|--------------|-------------|
+| [📜 Guidelines](./CONTRIBUTING.md) | Follow our contributing guidelines. |
+| [🐛 Report a Bug](.github/ISSUE_TEMPLATE/bug_report.md) | Found a bug? Report it here. |
+| [✨ Request a Feature](.github/ISSUE_TEMPLATE/feature_request.md) | Have an idea? Let us know! |
+| [📥 Pull Request Template](./PULL_REQUEST_TEMPLATE.md) | Learn how to submit a great PR. |
+
+---
+
+## 📁 CI/CD
+
+This project uses GitHub Actions for continuous integration:
+
+- **Workflow file**: [`flutter_ci.yml`](.github/workflows/flutter_ci.yml)
+
 ### 1. Install Flutter
 
 - **Windows:** [Flutter installation for Windows](https://flutter.dev/docs/get-started/install/windows)
